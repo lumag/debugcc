@@ -43,9 +43,12 @@
 #include "debugcc.h"
 
 static const struct debugcc_platform *platforms[] = {
+	&msm8936_debugcc,
 	&qcs404_debugcc,
+	&sc8280xp_debugcc,
 	&sdm845_debugcc,
 	&sm8350_debugcc,
+	&sm8450_debugcc,
 	NULL
 };
 
